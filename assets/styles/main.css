@@ -1,5 +1,8 @@
 :root {
-	/* khai bao bien & thong tin chung */
+	/* * khai bao bien & thong tin chung */
+	--ff-primary: "Satoshi", san-serif;
+	--color-primary: #000;
+	--color-secondary: #f0eeed;
 }
 
 html {
@@ -8,6 +11,15 @@ html {
 /* * HEADER: BEGIN */
 header {
 	/* css cua header */
+	.header-top {
+		background-color: var(--color-primary);
+		p {
+			text-align: center;
+		}
+	}
+
+	.header-main {
+	}
 }
 /* * HEADER: END */
 

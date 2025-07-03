@@ -7,6 +7,7 @@
 		<!-- meta seo -->
 		<title>TokyoLife - Home page</title>
 		<link rel="icon" type="image/x-icon" href="https://tokyolife.vn/logo-vertical.svg" />
+
 		<!-- reset css -->
 		<link rel="stylesheet" href="./assets/styles/reset.css" />
 
@@ -17,6 +18,14 @@
 			integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
 			crossorigin="anonymous"
 		/>
+		<!-- icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 
 		<!-- common css -->
 		<link rel="stylesheet" href="./assets/styles/common.css" />
@@ -26,11 +35,29 @@
 	</head>
 	<body>
 		<header>
-			<div class="header-top">sdksjdksj</div>
+			<div class="header-top">
+				<div class="container">
+					<p>Sign up and get 20% off to your first order. <a href="./signup">Sign Up</a> Now</p>
+					<button>x</button>
+				</div>
+			</div>
 			<div class="header-main">
-				<div class="logo">logo</div>
-				<nav class="main-menu">menu</nav>
-				<div class="user-control">cart & logout</div>
+				<div class="container flex-space-beetwen">
+					<div class="logo">logo</div>
+					<nav class="main-menu">
+						<ul class="flex-space-beetwen">
+							<li><a href="/shop">Shop</a></li>
+							<li><a href="/sale">On Sale</a></li>
+							<li><a href="/arrivals">Arrivals</a></li>
+							<li><a href="brands">Brands</a></li>
+						</ul>
+					</nav>
+					<input type="text" class="search" placeholder="Search for products..." />
+					<div class="user-control">
+						<button><i class="fa-solid fa-cart-shopping"></i></button>
+						<button><i class="fa-solid fa-user"></i></button>
+					</div>
+				</div>
 				<!-- BEM = Block Element Modifier -->
 			</div>
 		</header>
