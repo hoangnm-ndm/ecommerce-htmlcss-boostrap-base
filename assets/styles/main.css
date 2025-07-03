@@ -1,4 +1,22 @@
-h1 {
-	color: red;
-	font-family: "Satoshi", sans-serif;
+:root {
+	/* khai bao bien & thong tin chung */
 }
+
+html {
+}
+
+/* * HEADER: BEGIN */
+header {
+	/* css cua header */
+}
+/* * HEADER: END */
+
+/* * BANNER: BEGIN */
+#banner {
+}
+/* * BANNER: END */
+
+/* * BRAND: BEGIN */
+#brand {
+}
+/* * BRAND: END */
