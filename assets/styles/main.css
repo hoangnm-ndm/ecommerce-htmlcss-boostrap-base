@@ -1,6 +1,18 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+}
+
 :root {
 	/* * khai bao bien & thong tin chung */
 	--ff-primary: "Satoshi", san-serif;
+	--ff-secondary: "Intergral", san-serif;
 	--color-primary: #000;
 	--color-secondary: #f0eeed;
 }
@@ -8,17 +20,83 @@
 html {
 }
 
+h1.section-title {
+}
+
+h2.section-title {
+	margin: 64px auto 55px;
+	font-family: var(--ff-secondary);
+	color: var(--color-primary);
+}
+
+.flex-space-beetwen {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btn {
+}
+
+.btn.btn-big {
+}
+
+.btn.btn-medium {
+}
+
+.btn.btn-small {
+}
+
+.btn.btn-primary {
+}
+
+.btn.btn-secondary {
+}
+
 /* * HEADER: BEGIN */
 header {
 	/* css cua header */
+
 	.header-top {
 		background-color: var(--color-primary);
-		p {
-			text-align: center;
-		}
 	}
 
 	.header-main {
+		padding: 24px 0;
+		.logo {
+		}
+		.main-menu {
+		}
+		ul {
+			margin-bottom: 0;
+		}
+		li {
+		}
+		.user-control {
+		}
+
+		p {
+			text-align: center;
+		}
+		ul {
+			gap: 24px;
+		}
+		.logo > a {
+			font-size: 32px;
+			font-weight: 700;
+		}
+
+		li > a {
+			font-weight: 700;
+		}
+
+		input {
+			border-radius: 62px;
+			padding: 12px 16px;
+			background-color: var(--color-secondary);
+			border: none;
+			min-width: 300px;
+		}
 	}
 }
 /* * HEADER: END */
